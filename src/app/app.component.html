@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>簡單的 Angular 畫面</title>
+  </head>
+  <body>
+    <form method="post">
+      <label for="name">會員名字:</label>
+      <input type="text" name="11" [(ngModel)]="member.memberName" />
+      <br />
+
+      <label for="password">會員密碼:</label>
+      <input type="text" name="22" [(ngModel)]="member.memberPassword" />
+      <br />
+
+      <label for="phone">會員電話:</label>
+      <input type="text" name="33" [(ngModel)]="member.memeberPhone" />
+      <br />
+
+      <button type="submit" (click)="this.test()">送出</button>
+    </form>
+  </body>
+</html>

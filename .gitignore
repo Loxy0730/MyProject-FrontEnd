@@ -1,0 +1,30 @@
+# Node modules
+/node_modules/
+
+# IDEs and editors
+/.idea/
+/.vscode/
+/.DS_Store
+
+# Environment files
+*.env
+
+# Angular build output
+/dist/
+/out-tsc/
+/coverage/
+
+# Dependency directories
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Angular configuration
+.angular/
+
+# TypeScript v1 declaration files
+typings/
+
+# Optional npm package-lock or yarn.lock file
+package-lock.json
+yarn.lock
